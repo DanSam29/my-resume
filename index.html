@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-ua="Моє Резюме" data-en="My Resume">Моє Резюме</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo" data-ua="Моє Резюме" data-en="My Resume">Моє Резюме</div>
+            <div class="burger-menu" id="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#hero" data-ua="Головна" data-en="Home">Головна</a></li>
+                <li><a href="#about" data-ua="Про себе" data-en="About">Про себе</a></li>
+                <li><a href="#education" data-ua="Освіта" data-en="Education">Освіта</a></li>
+                <li><a href="#skills" data-ua="Навички" data-en="Skills">Навички</a></li>
+                <li><a href="#social" data-ua="Контакти" data-en="Contacts">Контакти</a></li>
+            </ul>
+            <div class="header-controls">
+                <button id="language-toggle" class="language-toggle" title="Перемкнути мову">
+                    EN
+                </button>
+                <button id="theme-toggle" class="theme-toggle" title="Перемкнути тему">
+                    <span data-ua="Темний режим" data-en="Dark Mode">Темний режим</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div class="container">
+            <img src="photo.jpg" alt="Моє Фото">
+            <h1 data-ua="Самородський Данило" data-en="Samorodsky Danylo">Самородський Данило</h1>
+            <p data-ua="Студент | Backend-розробник Python" data-en="Student | Python Backend Developer">Студент | Backend-розробник Python</p>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title" data-ua="Про себе" data-en="About Me">Про себе</h2>
+            <div class="about-content">
+                <p class="about-text" data-ua="Привіт! Я — Данило, backend-розробник, який зараз навчається на третьому курсі університету. 
+                    Програмування для мене — це захоплива гра, де я можу створити практично все, що заманеться. 
+                    Особливо мене приваблює логіка коду та пошук найбільш ефективних рішень для конкретних задач. 
+                    Завжди прагну вдосконалювати свої навички та вивчати нові технології у сфері веб-розробки." 
+                    data-en="Hello! I'm Danylo, a backend developer currently in my third year of university. 
+                    Programming for me is an exciting game where I can create almost anything I want. 
+                    I am particularly fascinated by code logic and finding the most efficient solutions for specific tasks. 
+                    I always strive to improve my skills and learn new technologies in web development.">
+                    Привіт! Я — Данило, backend-розробник, який зараз навчається на третьому курсі університету. 
+                    Програмування для мене — це захоплива гра, де я можу створити практично все, що заманеться. 
+                    Особливо мене приваблює логіка коду та пошук найбільш ефективних рішень для конкретних задач. 
+                    Завжди прагну вдосконалювати свої навички та вивчати нові технології у сфері веб-розробки.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="education">
+        <div class="container">
+            <h2 class="section-title" data-ua="Освіта" data-en="Education">Освіта</h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <div class="education-period">2023 - <span data-ua="поточний час" data-en="present">поточний час</span></div>
+                    <div class="education-details">
+                        <h3 class="education-institution" data-ua="Херсонський державний університет" data-en="Kherson State University">Херсонський державний університет</h3>
+                        <p class="education-specialty" data-ua="Спеціальність &quot;Інженерія програмного забезпечення&quot;" data-en="Specialty &quot;Software Engineering&quot;">Спеціальність "Інженерія програмного забезпечення"</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-period">2016-2023</div>
+                    <div class="education-details">
+                        <h3 class="education-institution" data-ua="Херсонська спеціалізована школа І-ІІІ ступенів №30" data-en="Kherson Specialized School №30">Херсонська спеціалізована школа І-ІІІ ступенів №30</h3>
+                        <p class="education-specialty" data-ua="З поглибленим вивченням предметів природничо-математичного циклу та англійської мови Херсонської міської ради" 
+                           data-en="With in-depth study of natural sciences, mathematics and English">З поглибленим вивченням предметів природничо-математичного циклу та англійської мови Херсонської міської ради</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-period">2012-2016</div>
+                    <div class="education-details">
+                        <h3 class="education-institution" data-ua="Херсонська початкова школа №7" data-en="Kherson Primary School №7">Херсонська початкова школа №7</h3>
+                        <p class="education-specialty" data-ua="Херсонської міської ради" data-en="Kherson City Council">Херсонської міської ради</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title" data-ua="Навички" data-en="Skills">Навички</h2>
+            <div class="skills-container">
+                <div class="skills-column">
+                    <h3 class="skills-subtitle" data-ua="Технічні навички" data-en="Technical Skills">Технічні навички</h3>
+                    <table class="skills-table">
+                        <thead>
+                            <tr>
+                                <th data-ua="Технологія" data-en="Technology">Технологія</th>
+                                <th data-ua="Рівень" data-en="Level">Рівень</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Python</td>
+                                <td>
+                                    <div class="skill-container">
+                                        <div class="skill-bar">
+                                            <div class="skill-level" data-level="60"></div>
+                                        </div>
+                                        <span class="skill-percent">60%</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>MySQL</td>
+                                <td>
+                                    <div class="skill-container">
+                                        <div class="skill-bar">
+                                            <div class="skill-level" data-level="60"></div>
+                                        </div>
+                                        <span class="skill-percent">60%</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>JavaScript</td>
+                                <td>
+                                    <div class="skill-container">
+                                        <div class="skill-bar">
+                                            <div class="skill-level" data-level="35"></div>
+                                        </div>
+                                        <span class="skill-percent">35%</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>React</td>
+                                <td>
+                                    <div class="skill-container">
+                                        <div class="skill-bar">
+                                            <div class="skill-level" data-level="30"></div>
+                                        </div>
+                                        <span class="skill-percent">30%</span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>HTML/CSS</td>
+                                <td>
+                                    <div class="skill-container">
+                                        <div class="skill-bar">
+                                            <div class="skill-level" data-level="70"></div>
+                                        </div>
+                                        <span class="skill-percent">70%</span>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="divider"></div>
+                <div class="skills-column">
+                    <h3 class="skills-subtitle" data-ua="Мови" data-en="Languages">Мови</h3>
+                    <table class="skills-table">
+                        <thead>
+                            <tr>
+                                <th data-ua="Мова" data-en="Language">Мова</th>
+                                <th data-ua="Рівень" data-en="Level">Рівень</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-ua="Українська" data-en="Ukrainian">Українська</td>
+                                <td data-ua="Носій" data-en="Native">Носій</td>
+                            </tr>
+                            <tr>
+                                <td data-ua="Російська" data-en="Russian">Російська</td>
+                                <td data-ua="Носій" data-en="Native">Носій</td>
+                            </tr>
+                            <tr>
+                                <td data-ua="Англійська" data-en="English">Англійська</td>
+                                <td>B1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="social">
+        <div class="container">
+            <h2 class="section-title" data-ua="Контактна інформація" data-en="Contact Information">Контактна інформація</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-label" data-ua="Телефон:" data-en="Phone:">Телефон:</span>
+                    <span class="contact-value">+380 (95) 919-38-02</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-label" data-ua="Email:" data-en="Email:">Email:</span>
+                    <span class="contact-value">021912@university.kherson.ua</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-label" data-ua="Соціальні мережі:" data-en="Social Networks:">Соціальні мережі:</span>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/danylo-s-353a58350/" class="social-icon" title="LinkedIn" target="_blank">
+                            <img src="linkedin.png" alt="LinkedIn" width="32" height="32">
+                        </a>
+                        <a href="https://github.com/ProcOrganisator" class="social-icon" title="GitHub" target="_blank">
+                            <img src="github.png" alt="GitHub" width="32" height="32">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="resume.js"></script>
+</body>
+</html>
