@@ -1,0 +1,19 @@
+name: Resume Website CI
+on: [push]
+
+jobs:
+  check-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Verify site files
+        run: |
+          echo "Starting site integrity check..."
+          ls -la
+          test -f index.html && echo "index.html exists" || exit 1
+          echo "Check completed successfully!"
+
+      - name: Status update
+        run: echo "The resume website is ready for deployment."
